@@ -1,15 +1,22 @@
-# Autonomous robot capable of playing Pong
+<div id="home">
+  <h2>Summary</h2>
+  <div>
+    <p>This is my Bachelor thesis. It consists of a small robot that can play the game Pong by physically controlling one of the available joystics.</p>
+    <p>The game is run and displayed on a <i>Raspberry Pi</i>. There are two joysticks attached to it that the players can use in order to controll the paddles.</p>
+    <p>
+      The robot observes the state of the game through a camera and uses <b>Computer Vision</b> to extract the relevant data.
+      Based on the processed information, it then computes what actions to play in order to win.
+      To act out the desired strategy, the robot operates one of the joysticks through a custom arm.
+    </p>
+    <p>
+      The project includes three separate algorithms for determining the robot decisions.
+      The first uses conventional programming and the other two take advantage of custom <b>Machine Learning</b> models.
+    </p>
+  </div>
 
-## This is my Bachelor thesis
-
-### Lorem ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur sagittis ante, vel efficitur nisi faucibus vitae. Fusce at vehicula lorem, a egestas dui. Curabitur tempus neque at rutrum porta. Nulla facilisi. Vestibulum pharetra semper euismod. Nunc vel pretium nibh. Quisque bibendum nulla non lorem pulvinar finibus. Ut et neque at sapien bibendum tincidunt. Vestibulum ut enim et ante consectetur pretium a eu ligula. Praesent molestie auctor velit, vel varius turpis tincidunt sit amet. Curabitur fermentum porttitor fermentum. Aliquam nec felis eget nisl suscipit dapibus non et ante.
-
-Nulla vel ligula porta, efficitur magna sit amet, lobortis justo. Ut et tortor a nunc semper ultricies. Aliquam erat volutpat. Nullam id fermentum risus, ac auctor augue. Aenean vitae libero mauris. In condimentum nunc sed diam convallis, sed accumsan sapien porttitor. Aliquam pharetra ligula vel fringilla imperdiet. Praesent rhoncus iaculis pretium. In sit amet iaculis sapien. Vestibulum molestie mollis dui a laoreet. Proin elementum dui eu enim bibendum, eu congue odio ultrices. Vivamus varius quam vel aliquam congue. Morbi at neque arcu.
-
-Sed venenatis varius bibendum. Mauris pulvinar sagittis justo at finibus. In quis faucibus diam. Aliquam vestibulum augue ac odio pharetra fringilla. Phasellus justo nibh, tempus nec leo eget, fermentum porta purus. Fusce mattis ante ut augue dictum sollicitudin. Phasellus sed fermentum arcu. Aenean id egestas ligula. Suspendisse potenti. Suspendisse ac enim massa. Suspendisse potenti. Integer pellentesque convallis magna, at tincidunt nulla ultrices ac. In dolor ligula, pulvinar at faucibus sollicitudin, egestas at quam. Aliquam laoreet volutpat nibh et lobortis. Integer semper elementum dignissim. Donec at metus quam.
-
-Mauris porttitor laoreet neque, vitae tincidunt odio ultricies at. Donec sagittis non risus porttitor feugiat. Vestibulum dictum augue eu neque efficitur, vitae mollis neque dignissim. Nunc id ipsum sagittis, venenatis tellus at, tincidunt enim. Mauris condimentum ornare nulla vel consequat. Aliquam pretium gravida cursus. Curabitur eget nulla quis metus ultrices ultricies. Fusce vulputate mauris eu felis cursus dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec dolor feugiat, malesuada elit a, fermentum orci.
-
-Nulla ultricies, neque et laoreet hendrerit, mi ipsum finibus erat, vel mattis augue velit vel nunc. Donec ullamcorper nibh et velit ultricies iaculis. Integer quam sapien, venenatis ac neque eu, sollicitudin sollicitudin est. Aliquam viverra auctor nibh, ac vehicula ligula pellentesque sed. Suspendisse potenti. Donec condimentum hendrerit enim quis hendrerit. Curabitur nec ultricies ligula.
+  <h2>Demo</h2>
+  <video width="852" height="480" autoplay muted loop>
+    <source src="resources/demo.mp4" type="video/mp4">
+    Your browser does not support this video.
+  </video>
+</div>
