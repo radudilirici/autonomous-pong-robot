@@ -22,10 +22,6 @@ The project includes three separate methods for determining the robot decisions.
 The first one uses conventional programming and the other two are built using <b>Reinforcement Learning</b>
 algorithms.
 </p>
-<p>
-The source files can be found at my <a href="{{ site.github_repo }}">GitHub
-project</a>.
-</p>
 </div>
 
 <div id="demo">
