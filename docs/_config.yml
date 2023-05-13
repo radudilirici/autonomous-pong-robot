@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pong Robot
+title: Autonomous Pong Robot
 email: diliriciradu@gmail.com
 author:
   name: Radu Dilirici
   url: https://github.com/radudilirici
 description: >- # this means to ignore newlines until "baseurl:"
-  A robotic arm that can play the game Pong by controlling one of the available joystics.
+  A robotic arm that can play the game Pong by controlling one of the available joysticks.
 # baseurl: "/autonomous-pong-robot" # the subpath of your site, e.g. /blog
 url: "https://radudilirici.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  radudilirici
+github_repo: https://github.com/radudilirici/autonomous-pong-robot
 
 # Build settings
 markdown: kramdown
